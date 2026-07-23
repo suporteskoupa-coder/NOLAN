@@ -38,7 +38,7 @@ Nolan combina varias camadas locais:
 - modo visual `ressonancia`: ambar discreto
 - modo visual `instavel`: verde observador
 
-O usuario ainda pode escrever `ultron` no inicio da frase para enfatizar o lado observador, mas a resposta continua vindo como `Nolan`.
+O usuario ainda pode escrever `alternar` no inicio da frase para enfatizar o lado observador, mas a resposta continua vindo como `Nolan`.
 
 ## Base local
 
@@ -95,7 +95,7 @@ Consultas uteis:
 - `em que voce acredita sobre mim?`
 - `o que voce pode fazer?`
 - `status`
-- `ultron, o que voce acha de mim?`
+- `Nolan, o que voce acha de mim?`
 
 ## Voz
 
