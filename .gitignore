@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# modelos de voz (binarios grandes, baixar separadamente)
+models/
+
+# dados pessoais gerados em runtime (memoria, perfil, crencas, etc.)
+memoria.json
+estado.json
+perfil_usuario.json
+crencas.json
+raciocinio.json
+base_local.json
+
