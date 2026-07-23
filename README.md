@@ -1,4 +1,4 @@
-# Jarvis V2
+# Nolan
 
 Assistente local em Python com identidade publica unica, memoria persistente, base de conhecimento local e uma camada observadora sutil.
 
@@ -6,7 +6,7 @@ Assistente local em Python com identidade publica unica, memoria persistente, ba
 
 - interface desktop expandida com `customtkinter`
 - integracao local com Ollama via `subprocess`
-- identidade publica unica: `Jarvis V2`
+- identidade publica unica: `Nolan`
 - memoria recente e memoria importante persistentes
 - perfil persistente do usuario com estilo de conversa e padroes temporais
 - motor de crencas com fatos, inferencias e hipoteses
@@ -20,7 +20,7 @@ Assistente local em Python com identidade publica unica, memoria persistente, ba
 
 ## Arquitetura cognitiva
 
-Jarvis V2 combina varias camadas locais:
+Nolan combina varias camadas locais:
 
 - `memoria.json`: historico recente com importancia e tags
 - `perfil_usuario.json`: preferencias, estilo e padroes do usuario
@@ -31,14 +31,14 @@ Jarvis V2 combina varias camadas locais:
 
 ## Presenca e conversa
 
-- identidade publica: sempre `Jarvis V2`
+- identidade publica: sempre `Nolan`
 - modo `core`: claro, estavel, explicativo
 - modo `shadow`: observador, contido e raro
-- modo visual `jarvis`: azul e estavel
+- modo visual `nolan`: azul e estavel
 - modo visual `ressonancia`: ambar discreto
 - modo visual `instavel`: verde observador
 
-O usuario ainda pode escrever `ultron` no inicio da frase para enfatizar o lado observador, mas a resposta continua vindo como `Jarvis V2`.
+O usuario ainda pode escrever `ultron` no inicio da frase para enfatizar o lado observador, mas a resposta continua vindo como `Nolan`.
 
 ## Base local
 
@@ -81,7 +81,7 @@ Exemplos:
 
 ## Perfil, crencas e memoria
 
-Jarvis V2 tenta aprender:
+Nolan tenta aprender:
 
 - o que voce diz explicitamente
 - o que voce demonstra preferir

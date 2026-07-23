@@ -12,7 +12,7 @@ from .speech import Speaker
 
 
 THEMES = {
-    "jarvis": {"bg": "#07111A", "panel": "#0D1B2A", "panel_alt": "#0A1623", "accent": "#4DA8FF", "text": "#E8F3FF", "badge": "#14324E"},
+    "nolan": {"bg": "#07111A", "panel": "#0D1B2A", "panel_alt": "#0A1623", "accent": "#4DA8FF", "text": "#E8F3FF", "badge": "#14324E"},
     "ressonancia": {"bg": "#120F09", "panel": "#1B1710", "panel_alt": "#17120B", "accent": "#E1A23B", "text": "#FFF2DC", "badge": "#3B2A12"},
     "instavel": {"bg": "#081816", "panel": "#0F2421", "panel_alt": "#0B1F1C", "accent": "#69D8B6", "text": "#E8FFF8", "badge": "#133630"},
 }
@@ -35,7 +35,7 @@ class AssistantWindow(ctk.CTk):
         )
         self.listener = WindowsVoiceListener(timeout_seconds=engine.settings.listen_timeout_seconds)
         self.listener_status = self.listener.status()
-        self.title("Jarvis V2")
+        self.title("Nolan")
         self.minsize(900, 720)
         self.resizable(True, True)
         self.attributes("-topmost", True)
@@ -43,10 +43,10 @@ class AssistantWindow(ctk.CTk):
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
 
-        self._current_theme = THEMES["jarvis"]
+        self._current_theme = THEMES["nolan"]
         self._build_window_geometry()
         self._build_widgets()
-        self._apply_theme("jarvis")
+        self._apply_theme("nolan")
         self._refresh_dashboard()
 
     def _build_window_geometry(self) -> None:
@@ -78,7 +78,7 @@ class AssistantWindow(ctk.CTk):
 
         self.title_label = ctk.CTkLabel(
             self.title_row,
-            text="JARVIS V2",
+            text="NOLAN",
             font=ctk.CTkFont(size=24, weight="bold"),
         )
         self.title_label.grid(row=0, column=1, sticky="w")
@@ -168,7 +168,7 @@ class AssistantWindow(ctk.CTk):
         self.chat_box.insert(
             "end",
             "Sistema iniciado.\n"
-            "Jarvis V2 aguardando sua chamada.\n"
+            "Nolan aguardando sua chamada.\n"
             "Use o painel lateral para memoria, arquivos e base local.\n",
         )
         self.chat_box.configure(state="disabled")

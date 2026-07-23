@@ -1,2 +1,2 @@
-"""Assistente local Jarvis + Ultron."""
+"""Assistente local Nolan (nucleo estavel + nucleo observador)."""
 

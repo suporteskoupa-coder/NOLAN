@@ -153,7 +153,7 @@ class MemoryStore:
     def _include_in_prompt(self, entry: MemoryEntry) -> bool:
         normalized = entry.content.lower()
         blocked_fragments = (
-            "diagnostico do jarvis v2",
+            "diagnostico do nolan",
             "memoria persistente",
             "estado interno",
             "automacao segura",
@@ -163,7 +163,7 @@ class MemoryStore:
             "\\memoria.json",
             "\\estado.json",
             "sistema iniciado",
-            "jarvis v2 aguardando sua chamada",
+            "nolan aguardando sua chamada",
         )
         return not any(fragment in normalized for fragment in blocked_fragments)
 

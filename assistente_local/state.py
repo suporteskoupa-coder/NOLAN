@@ -9,7 +9,7 @@ from pathlib import Path
 class SystemState:
     infeccao: int = 0
     interacoes: int = 0
-    ultima_persona: str = "Jarvis V2"
+    ultima_persona: str = "Nolan"
 
     @property
     def stage(self) -> str:
@@ -22,7 +22,7 @@ class SystemState:
     @property
     def visual_mode(self) -> str:
         if self.stage == "baixo":
-            return "jarvis"
+            return "nolan"
         if self.stage == "medio":
             return "instavel"
         return "ultron"

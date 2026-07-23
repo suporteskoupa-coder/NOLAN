@@ -3,10 +3,10 @@ setlocal enabledelayedexpansion
 
 set "PROJECT_DIR=%~dp0"
 cd /d "%PROJECT_DIR%"
-set "DATA_DIR=%TEMP%\jarvis_ultron_assistant"
+set "DATA_DIR=%TEMP%\nolan_assistant"
 
 echo ============================================
-echo   Jarvis V2 - Desinstalador
+echo   Nolan - Desinstalador
 echo ============================================
 echo.
 echo Isso remove o ambiente virtual (.venv) criado pelo install.bat.
@@ -28,7 +28,7 @@ if exist ".venv" (
 )
 
 echo.
-echo O Jarvis V2 tambem guarda memoria, perfil e crencas aprendidas em:
+echo O Nolan tambem guarda memoria, perfil e crencas aprendidas em:
 echo   %DATA_DIR%
 echo.
 set /p REMOVE_DATA="Deseja apagar tambem esses dados aprendidos? (S/N): "

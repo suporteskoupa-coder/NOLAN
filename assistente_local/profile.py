@@ -39,7 +39,7 @@ ALIAS_PATTERNS = (
 )
 
 TOPIC_KEYWORDS = {
-    "ia_local": ("ollama", "modelo local", "llama", "ia local", "assistente local", "jarvis", "ultron"),
+    "ia_local": ("ollama", "modelo local", "llama", "ia local", "assistente local", "nolan", "ultron"),
     "programacao": ("python", "codigo", "script", "bug", "interface", "customtkinter", "api"),
     "logica": ("logica", "relacao", "relacoes", "equivale", "raciocine", "raciocinio", "a+b", "="),
     "horror": ("horror", "assustador", "inquietante", "creepy", "analog horror", "presenca"),

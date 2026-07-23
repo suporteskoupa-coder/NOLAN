@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 def _default_data_dir() -> Path:
-    return Path(tempfile.gettempdir()) / "jarvis_ultron_assistant"
+    return Path(tempfile.gettempdir()) / "nolan_assistant"
 
 
 def _default_ollama_command() -> str:
@@ -19,7 +19,7 @@ def _default_ollama_command() -> str:
 
 @dataclass(slots=True)
 class Settings:
-    jarvis_model: str = os.getenv("JARVIS_MODEL", "llama3")
+    nolan_model: str = os.getenv("NOLAN_MODEL", "llama3")
     ultron_model: str = os.getenv("ULTRON_MODEL", "llama3")
     data_dir: Path = _default_data_dir()
     window_width: int = 940

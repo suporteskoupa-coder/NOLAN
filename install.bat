@@ -5,7 +5,7 @@ set "PROJECT_DIR=%~dp0"
 cd /d "%PROJECT_DIR%"
 
 echo ============================================
-echo   Jarvis V2 - Instalador de dependencias
+echo   Nolan - Instalador de dependencias
 echo ============================================
 echo.
 
@@ -49,5 +49,5 @@ echo   Proximos passos:
 echo   1. Instale o Ollama: https://ollama.com/download
 echo   2. Baixe um modelo local, por exemplo:
 echo        ollama pull llama3
-echo   3. Use start_assistant.bat para iniciar o Jarvis V2.
+echo   3. Use start_assistant.bat para iniciar o Nolan.
 echo ============================================

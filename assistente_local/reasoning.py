@@ -162,7 +162,7 @@ class ReasoningStore:
 
     def _extract_symbols(self, text: str) -> list[str]:
         symbols = re.findall(r"\b[A-Za-z][A-Za-z0-9_]*\b", text)
-        return [symbol for symbol in symbols if symbol.lower() not in {"jarvis", "ultron", "status", "ajuda"}]
+        return [symbol for symbol in symbols if symbol.lower() not in {"nolan", "ultron", "status", "ajuda"}]
 
     def _related_expressions(self, data: dict[str, Any], symbol: str) -> list[str]:
         canonical = self._canonical_expression(symbol)

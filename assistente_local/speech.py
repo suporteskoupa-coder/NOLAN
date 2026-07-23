@@ -33,8 +33,6 @@ SPEECH_STYLES = {
 }
 
 SPEECH_REPLACEMENTS = (
-    ("Jarvis V2", "Jarvis versao dois"),
-    ("Jarvis v2", "Jarvis versao dois"),
     ("A + B", "A mais B"),
     (" + ", " mais "),
     (" = ", " igual a "),
