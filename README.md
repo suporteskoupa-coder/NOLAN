@@ -9,7 +9,7 @@ Assistente local em Python com identidade publica unica, memoria persistente, ba
 - identidade publica unica: `Nolan`
 - memoria recente e memoria importante persistentes
 - perfil persistente do usuario com estilo de conversa e padroes temporais
-- motor de crencas com fatos, inferencias e hipoteses
+- motor de crenças com fatos, inferencias e hipoteses
 - raciocinio relacional para equivalencias simples
 - base local para importar e consultar arquivos do proprio PC
 - observacoes raras e sutis com presenca controlada
