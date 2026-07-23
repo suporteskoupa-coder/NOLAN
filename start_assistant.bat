@@ -26,8 +26,7 @@ if exist "%WINDOWS_OLLAMA%" (
 "%PYTHON_EXE%" -c "import customtkinter, pyautogui, sounddevice, scipy" >nul 2>nul
 if errorlevel 1 (
     echo [ERRO] Dependencias Python nao disponiveis para o interpretador selecionado.
-    echo Instale ou reinstale com:
-    echo   pip install -r requirements.txt
+    echo Rode install.bat para instalar tudo automaticamente.
     exit /b 1
 )
 

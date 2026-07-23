@@ -115,23 +115,45 @@ No estado atual, se o Windows nao tiver reconhecedor de fala nativo instalado, o
 ollama pull llama3
 ```
 
-## Dependencias
+## Instalacao
+
+No Windows, basta rodar:
 
 ```powershell
-pip install -r requirements.txt
+.\install.bat
+```
+
+Isso cria um ambiente virtual isolado em `.venv` e instala todas as dependencias
+do `requirements.txt` dentro dele, sem afetar o Python global da maquina.
+
+Se preferir instalar manualmente:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
 ```
 
 ## Execucao
 
 ```powershell
+.\start_assistant.bat
+```
+
+Ou, com o ambiente virtual ja ativado:
+
+```powershell
 python main.py
 ```
 
-Ou, no Windows:
+## Desinstalacao
 
 ```powershell
-.\start_assistant.bat
+.\uninstall.bat
 ```
+
+Remove o ambiente virtual `.venv`. O script tambem pergunta se voce quer apagar
+a memoria, o perfil e as crencas aprendidas (guardados fora da pasta do projeto,
+em uma pasta temporaria do sistema) — essa parte e opcional e so acontece se voce confirmar.
 
 ## Automacao segura
 
