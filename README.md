@@ -1,5 +1,7 @@
 # Nolan
 
+🇧🇷 Português | [🇺🇸 English](README.en.md)
+
 **Assistente de IA local, privado e com memória própria.**
 
 Nolan roda inteiramente na sua máquina — sem nuvem, sem API externa, sem seus dados saindo do PC. Ele combina um modelo de linguagem local (via Ollama) com camadas próprias de memória, crenças, raciocínio simbólico e uma base de conhecimento indexada a partir dos seus próprios arquivos.
@@ -84,7 +86,7 @@ Nolan tem uma identidade pública única — não muda de nome, não se apresent
 | `core` | Claro, estável, direto ao ponto |
 | `shadow` | Observador, contido, aparece raramente e com parcimônia |
 
-Você pode digitar `shadow` (ou `raciocinar`, mantido como gatilho interno) no início da frase para puxar o lado observador — mas a resposta sempre volta identificada como **Nolan**.
+Você pode digitar `shadow` (ou `ultron`, mantido como gatilho interno) no início da frase para puxar o lado observador — mas a resposta sempre volta identificada como **Nolan**.
 
 ## Requisitos
 
