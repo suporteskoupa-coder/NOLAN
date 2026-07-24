@@ -86,7 +86,7 @@ Nolan tem uma identidade pública única — não muda de nome, não se apresent
 | `core` | Claro, estável, direto ao ponto |
 | `shadow` | Observador, contido, aparece raramente e com parcimônia |
 
-Você pode digitar `shadow` (ou `ultron`, mantido como gatilho interno) no início da frase para puxar o lado observador — mas a resposta sempre volta identificada como **Nolan**.
+Você pode digitar `shadow` (ou `pensar`, mantido como gatilho interno) no início da frase para puxar o lado observador — mas a resposta sempre volta identificada como **Nolan**.
 
 ## Requisitos
 
